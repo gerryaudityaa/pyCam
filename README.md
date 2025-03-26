@@ -27,9 +27,8 @@ Before you begin, ensure you have:
     pip install flask python-dotenv requests
 
 3. Environment Configuration
-Create a .env file in the project root with:
-    
-    ```bash 
+    Create a .env file in the project root with:
+    ```bash
     TELEGRAM_BOT_TOKEN=your_bot_token_here
     TELEGRAM_CHAT_ID=your_chat_id_here
 
